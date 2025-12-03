@@ -1,0 +1,49 @@
+/* ================================
+   Layout & Page Structure
+   ================================ */
+.app-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+/* ================================
+     Input Field Styling
+     ================================ */
+.note-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.note-input:focus {
+  border-color: #4a90e2;
+}
+
+/* ================================
+     Button Styling
+     ================================ */
+.add-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.add-button:hover {
+  background-color: #3578c0;
+}

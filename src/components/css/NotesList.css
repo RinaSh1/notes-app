@@ -1,0 +1,48 @@
+/* =========================================
+   Notes List Container
+   ========================================= */
+.notes-list-container {
+    margin-top: 10px;
+}
+
+/* =========================================
+     List Structure
+     ========================================= */
+.notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* =========================================
+     Each Note Item
+     ========================================= */
+.note-item {
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================================
+     Delete Button
+     ========================================= */
+.delete-button {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-button:hover {
+    background-color: #d93636;
+}
